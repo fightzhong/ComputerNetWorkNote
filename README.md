@@ -1,6 +1,8 @@
 计算机网络笔记(计算机网络第七版 谢希仁著)
 ================
 > 学习的过程中主要以抓包工具Ethereal和虚拟机进行辅助学习, 并以一定的实践进行解释
+
+> 笔记重新整理成gitbook的形式, 请点击[查看](https://fightzhong.github.io/ComputerNetworkNotes_gitbook)
 ## 第一章: 概述
 ### 互联网的组成
 ```
