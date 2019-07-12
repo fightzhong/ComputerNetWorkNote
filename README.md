@@ -575,6 +575,8 @@ E类地址：第一个xxx是11110000的地址是D类地址, 保留未使用
 
 arp -a: 查看所有的apr解析的静态MAC地址
 arp -s IP地址 MAC地址：修改IP地址所在 的MAC地址
+netsh i i show in: 找到网卡的index
+netsh -c "i i" add neighbors 本地连接的idx "网关IP" "网关mac“: 修改IP与mac的映射
 route print: 查看路由表
 route add 网段 mask 子网掩码 路由地址A: 添加到网段的路由地址,如果要访问该网段,那么下一跳就要到路由地址A         
 ```
